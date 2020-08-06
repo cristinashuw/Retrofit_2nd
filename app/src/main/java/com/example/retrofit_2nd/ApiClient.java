@@ -1,13 +1,11 @@
 package com.example.retrofit_2nd;
 
-
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 class APIClient {
-
     private static Retrofit retrofit = null;
 
     static Retrofit getClient() {
@@ -27,5 +25,6 @@ class APIClient {
 
         return retrofit;
     }
+
 
 }
